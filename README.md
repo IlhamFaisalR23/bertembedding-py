@@ -36,7 +36,7 @@ Respons:
 {
   "embedding": [0.123, -0.456, ...]
 }
-
+```
 
 📂 Struktur Proyek
 .
@@ -44,6 +44,7 @@ Respons:
 ├── requirements.txt     # Daftar dependensi
 ├── README.md            # Dokumentasi proyek
 └── venv/                # Virtual environment (diabaikan oleh Git)
+
 
 ⚡ Contoh Penggunaan
 curl -X POST "[http://127.0.0.1:8000/embedding](http://127.0.0.1:8000/embedding)" \
