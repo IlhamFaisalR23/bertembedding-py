@@ -1,2 +1,11 @@
-/venv
-/_pycache__
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Environment variables
+.env
