@@ -32,6 +32,16 @@ Content-Type: application/json
   "text": "Halo dunia"
 }
 
+ATAU
+
+{
+  "text": [
+    "Halo",
+    "Dunia",
+    "Lagi"
+  ]
+}
+
 Respons:
 {
   "embedding": [0.123, -0.456, ...]
