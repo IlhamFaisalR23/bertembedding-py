@@ -38,7 +38,7 @@ Respons:
 }
 ```
 
-📂 Struktur Proyek
+## Struktur Proyek
 .
 ├── main.py              # Aplikasi FastAPI
 ├── requirements.txt     # Daftar dependensi
@@ -46,7 +46,7 @@ Respons:
 └── venv/                # Virtual environment (diabaikan oleh Git)
 
 
-⚡ Contoh Penggunaan
+## Contoh Penggunaan
 curl -X POST "[http://127.0.0.1:8000/embedding](http://127.0.0.1:8000/embedding)" \
      -H "Content-Type: application/json" \
      -d '{"text": ["Halo dunia", "FastAPI itu keren"]}'
